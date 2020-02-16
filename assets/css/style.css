@@ -1,0 +1,2 @@
+*,*::before,*::after{box-sizing:border-box;padding:0;margin:0;font-weight:normal}ul,ol{list-style:none}:root{--default-transition:250ms;--real-white:#fff}html{scroll-behavior:smooth}body{min-height:100vh}.container{width:285px;margin:0 auto}@media (min-width: 576px){.container{width:90%;max-width:1062px}}
+/*# sourceMappingURL=style.css.map */

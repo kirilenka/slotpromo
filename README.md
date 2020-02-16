@@ -1,1 +1,1 @@
-# slotpromo
+# SLOT
