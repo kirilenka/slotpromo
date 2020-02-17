@@ -198,12 +198,17 @@
     <div class="cell" data-id="{{id}}"></div>
 </script>
 <script type="text/x-handlebars-template" id="hb-template-table">
-    <label class="table">
+    <label class="table {{#if disabled}}disabled{{/if}}">
         <input class="checkbox" data-number="{{numb}}" data-table="{{id}}" type="radio" name="table" {{#if disabled}}disabled{{/if}}/>
         <div class="chair"></div>
         <div class="chair"></div>
         <div class="chair"></div>
         <div class="chair"></div>
+        <div class="popup">
+            <div class="popup__name">Стол 2 ряд</div>
+            <div class="popup__price">3800 P</div>
+            <a href="#" class="button popup__button">Купить билет</a>
+        </div>
     </label>
 </script>
 <script src="./assets/js/swiper.min.js"></script>
